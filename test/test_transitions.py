@@ -12,3 +12,5 @@ class TransitionTesting(unittest.TestCase):
         q1 = self.tm.add_state(False, True)
 
         t0 = Transition("t0", "a", "b", Direction.LEFT, q0, q1)
+
+    # TODO: Add more tests for transition
